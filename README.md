@@ -38,7 +38,7 @@ To run this project locally, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/tekeburak/podcast-summarizer.git
+   git clone https://github.com/ruhinpatel/podcast-summarizer.git
    cd podcast-summarizer
 
 2. Install the required dependencies using pip:
@@ -61,4 +61,5 @@ To run this project locally, follow these steps:
 4. The app will start by downloading the podcast episode in mp3 format and then use the WhisperX model to transcribe the speech to text.
 5. Once transcribed, the text data is fed into the ChatGPT 3.5 Turbo model to generate a summary.
 6. The summary, along with episode details, guest information, and highlights, will be displayed on the Streamlit interface.
+
 
